@@ -1,0 +1,18 @@
+# Secrets
+.env
+
+# Virtual environment
+.venv/
+venv/
+
+# Data (regenerate from source, don't commit)
+data/raw/
+data/clean/
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
